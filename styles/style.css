@@ -190,7 +190,7 @@ select{
     margin: 0 auto;
 }
 .choose-card {
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
     width: 575px;
     padding: 3rem;
     box-sizing: border-box;
@@ -199,14 +199,14 @@ select{
     background: rgba(251, 181, 99, 0.05);
     margin-bottom: 1rem;
 }
-.choose-card-text{
+.choose-card-text, .deals-card-text{
     color: rgb(19, 19, 24);
     font-size: 1.5rem;
     font-weight: 700;
     text-align: left;
     margin: 1rem auto;
 }
-.choose-text-description{
+.choose-text-description, .deals-text-description{
     color: rgb(90, 90, 93);
     font-size: 1rem;
     font-weight: 400;
@@ -216,7 +216,54 @@ select{
 .choose-card img{
     width: 2.5rem;
 }
+/* Deals & Discounts */
 
+.deals-section-description{
+    margin-bottom: 5rem;
+}
+.deals-section-image, .deals-section-image2{
+    background-image: url("../Images/Group\ 39.png");
+    padding: 4rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.deals-section-image2{
+    background-image: url("../Images/Group\ 40.png");
+}
+.deals-container02, .deals-container002{
+    display: flex;
+    justify-content: end;
+    margin: 0 3rem;
+}
+.deals-container002{
+    justify-content: start;
+}
+.deals-container{
+    width: 579px;
+    padding: 3rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 1rem;
+    background: hsla(0, 0%, 100%, 0.582);
+    backdrop-filter: blur(5px);
+    text-align: left;
+}
+.icon-text{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
+.icon-text i{
+    color: rgb(255, 84, 0);
+}
+.span-price{
+    color: rgb(255, 84, 0);
+    text-align: left;
+    margin: 1rem auto;
+}
 
 
 
